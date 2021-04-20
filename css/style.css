@@ -195,3 +195,19 @@ dl{
 	margin-left: 3em;
 }
 
+@media screen and (max-width: 1000px) {
+  html {
+	background-color: #150734;
+	color: #CAE7DF;
+  }
+  html {
+	border-top: 2.4em solid #2A3166 ;
+  }
+  nav a {
+	background: #2A3166 ;
+	color: #CAE7DF;
+  }
+  nav a:hover {
+	background: #0F2557;
+  }
+}
