@@ -1,0 +1,197 @@
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  line-height: 1.2em;
+  padding: 2em;
+  background: #0B0C10;
+  text-align: left;
+  padding: 2.125em 15%;
+  color: #66FCF1;
+  margin: 0;
+  
+}
+
+html {
+  border-top: 2.4em solid #1F2833;
+}
+
+h1 {
+  text-align: left;
+  font-size: 50px;
+
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+	font-size: 25px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+nav{
+  margin-left: 3.2em;
+  margin-right: 5em;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  display: block;
+  padding: 4px;
+  font: bold 25px/30px sans-serif;
+  background: #1F2833;
+  color: #66FCF1;
+  text-align: center;
+}
+
+nav a:hover {
+  background: #45A29E;
+}
+
+nav li {
+  float: left;
+  width: 12.5em;
+  list-style: none;
+  right: 50%;
+  text-align: center;
+  position: relative;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style-type: none;
+  float: left;
+  left: 47%;
+}
+
+#name {
+	font-size: 30px;
+	text-align:center;
+}
+
+div {
+	height:200px;
+	float:left;
+}
+
+#education {
+	width:50%;
+	text-align:center;
+}
+
+#contact {
+	width:100%;
+	text-align:center;
+}
+
+#professionalexperiences{
+	width: 50%;
+	text-align:center;
+}
+
+#activities{
+	width:50%;
+	text-align:center;
+}
+
+#skill{
+	width: 50%;
+	text-align:center;
+}
+
+p{
+	margin: 2px;
+}
+
+dt{
+	margin: 2px;
+}
+
+dl{
+	margin:6px;
+}
+
+#cih3{
+	text-decoration: underline;
+}
+
+#edh3{
+	text-decoration: underline;
+}
+
+#pe3{
+	text-decoration: underline;
+}
+
+#activitiesh3{
+	text-decoration:underline;
+}
+
+#sh3{
+	text-decoration:underline;
+}
+
+#hobbiesHeading{
+	margin-bottom:8px;
+}
+
+#videoGameHeading {
+	text-decoration:underline;
+}
+
+#musicHeading {
+	text-decoration:underline;
+}
+
+#aboutMeHeading{
+	text-decoration:underline;
+}
+
+#thisCourseHeading {
+	text-decoration:underline;
+}
+
+#futureGoalHeading{
+	text-decoration:underline;
+}
+
+#gameList {
+	list-style-type: disc;
+	margin-left: 3em;
+}
+
+#drumImage {
+	max-width: 50%;
+	height: auto;
+    margin-top: 8px;
+}
+
+#roboticsImage {
+	max-width: 60%;
+	height: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#armyImage{
+	max-width: 25%;
+	height: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#roboticsToolsList{
+	list-style-type: disc;
+	margin-left: 3em;
+}
+
