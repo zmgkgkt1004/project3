@@ -195,6 +195,22 @@ dl{
 	margin-left: 3em;
 }
 
+#map {
+    margin: 0 auto;
+    height: 600px;
+    width: 100%;
+}
+
+.googleMapsInfo {
+    color: black;
+    width: 320px;
+}
+
+.googleMapsInfo h1 {
+    margin: 0.5em;
+    margin-left: 0;
+}
+
 @media screen and (max-width: 1000px) {
   html {
 	background-color: #150734;
