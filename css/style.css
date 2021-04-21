@@ -230,3 +230,37 @@ dl{
 	background: #0F2557;
   }
 }
+
+@media screen and (max-width: 500px) {
+  html {
+	background-color: #150734;
+	color: #CAE7DF;
+  }
+  html {
+	border-top: 2.4em solid #2A3166 ;
+  }
+  nav a {
+	background: #2A3166 ;
+	color: #CAE7DF;
+  }
+  nav a:hover {
+	background: #0F2557;
+  }
+}
+
+@media screen and (max-width: 816px) {
+  html {
+	background-color: #051821;
+	color: #CAE7DF;
+  }
+  html {
+	border-top: 4.8em solid #266867 ;
+  }
+  nav a {
+	background: #266867 ;
+	color: #F8BC24;
+  }
+  nav a:hover {
+	background: #1A4645;
+  }
+}
