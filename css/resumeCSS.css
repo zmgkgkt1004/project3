@@ -1,0 +1,61 @@
+#name {
+    font-size: 30px;
+    text-align:center;
+}
+
+#education {
+    width:50%;
+    text-align:center;
+}
+
+#contact {
+    width:100%;
+    text-align:center;
+}
+
+#professionalexperiences{
+    width: 50%;
+    text-align:center;
+}
+
+#activities{
+    width:50%;
+    text-align:center;
+}
+
+#skill{
+    width: 50%;
+    text-align:center;
+}
+
+p{
+    margin: 2px;
+}
+
+dt{
+    margin: 2px;
+}
+
+dl{
+    margin:6px;
+}
+
+#cih3{
+    text-decoration: underline;
+}
+
+#edh3{
+    text-decoration: underline;
+}
+
+#pe3{
+    text-decoration: underline;
+}
+
+#activitiesh3{
+    text-decoration:underline;
+}
+
+#sh3{
+    text-decoration:underline;
+}

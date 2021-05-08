@@ -2,7 +2,7 @@ html {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
   line-height: 1.2em;
-  padding: 2em;
+  padding: 2m;
   background: #0B0C10;
   text-align: left;
   padding: 2.125em 15%;
@@ -29,9 +29,9 @@ h2 {
 }
 
 h3 {
-	font-size: 25px;
-	margin: 10px;
-	font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 nav{
@@ -50,6 +50,7 @@ nav a {
   background: #1F2833;
   color: #66FCF1;
   text-align: center;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -74,125 +75,62 @@ nav ul {
   left: 47%;
 }
 
-#name {
-	font-size: 30px;
-	text-align:center;
-}
-
-div {
-	height:200px;
-	float:left;
-}
-
-#education {
-	width:50%;
-	text-align:center;
-}
-
-#contact {
-	width:100%;
-	text-align:center;
-}
-
-#professionalexperiences{
-	width: 50%;
-	text-align:center;
-}
-
-#activities{
-	width:50%;
-	text-align:center;
-}
-
-#skill{
-	width: 50%;
-	text-align:center;
-}
-
-p{
-	margin: 2px;
-}
-
-dt{
-	margin: 2px;
-}
-
-dl{
-	margin:6px;
-}
-
-#cih3{
-	text-decoration: underline;
-}
-
-#edh3{
-	text-decoration: underline;
-}
-
-#pe3{
-	text-decoration: underline;
-}
-
-#activitiesh3{
-	text-decoration:underline;
-}
-
-#sh3{
-	text-decoration:underline;
-}
-
 #hobbiesHeading{
-	margin-bottom:8px;
+    margin-bottom:8px;
 }
 
 #videoGameHeading {
-	text-decoration:underline;
+    text-decoration:underline;
 }
 
 #musicHeading {
-	text-decoration:underline;
+    text-decoration:underline;
 }
 
 #aboutMeHeading{
-	text-decoration:underline;
+    text-decoration:underline;
 }
 
 #thisCourseHeading {
-	text-decoration:underline;
+    text-decoration:underline;
+}
+
+#howIstartedcodingheading{
+  text-decoration: underline;
 }
 
 #futureGoalHeading{
-	text-decoration:underline;
+    text-decoration:underline;
 }
 
 #gameList {
-	list-style-type: disc;
-	margin-left: 3em;
+    list-style-type: disc;
+    margin-left: 3em;
 }
 
 #drumImage {
-	max-width: 50%;
-	height: auto;
+    max-width: 50%;
+    height: auto;
     margin-top: 8px;
 }
 
 #roboticsImage {
-	max-width: 60%;
-	height: auto;
+    max-width: 60%;
+    height: auto;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
 #armyImage{
-	max-width: 25%;
-	height: auto;
+    max-width: 25%;
+    height: auto;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
 #roboticsToolsList{
-	list-style-type: disc;
-	margin-left: 3em;
+    list-style-type: disc;
+    margin-left: 3em;
 }
 
 #wiiVideo {
@@ -200,12 +138,12 @@ dl{
 }
 
 #map {
-	height: 300%;
-	width: 600%;
+    height: 300%;
+    width: 600%;
 }
 
 #iconHeading{
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .googleMapsInfo {
@@ -220,51 +158,51 @@ dl{
 
 @media screen and (max-width: 1000px) {
   html {
-	background-color: #150734;
-	color: #CAE7DF;
+    background-color: #150734;
+    color: #CAE7DF;
   }
   html {
-	border-top: 2.4em solid #2A3166 ;
+    border-top: 2.4em solid #2A3166 ;
   }
   nav a {
-	background: #2A3166 ;
-	color: #CAE7DF;
+    background: #2A3166 ;
+    color: #CAE7DF;
   }
   nav a:hover {
-	background: #0F2557;
+    background: #0F2557;
   }
 }
 
 @media screen and (max-width: 500px) {
   html {
-	background-color: #150734;
-	color: #CAE7DF;
+    background-color: #150734;
+    color: #CAE7DF;
   }
   html {
-	border-top: 2.4em solid #2A3166 ;
+    border-top: 2.4em solid #2A3166 ;
   }
   nav a {
-	background: #2A3166 ;
-	color: #CAE7DF;
+    background: #2A3166 ;
+    color: #CAE7DF;
   }
   nav a:hover {
-	background: #0F2557;
+    background: #0F2557;
   }
 }
 
 @media screen and (max-width: 816px) {
   html {
-	background-color: #051821;
-	color: #CAE7DF;
+    background-color: #051821;
+    color: #CAE7DF;
   }
   html {
-	border-top: 4.8em solid #266867 ;
+    border-top: 4.8em solid #266867 ;
   }
   nav a {
-	background: #266867 ;
-	color: #F8BC24;
+    background: #266867 ;
+    color: #F8BC24;
   }
   nav a:hover {
-	background: #1A4645;
+    background: #1A4645;
   }
 }

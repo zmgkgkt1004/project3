@@ -5,8 +5,8 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/hobbiesCSS.css">
 		<title>ITMD-361 Project 3</title>
-		<script src="js/script.js"></script>
 	</head>
 
 	<body>
@@ -23,10 +23,63 @@
 		
 		<h2 id="hobbiesHeading">Hobbies</h2>
 		<p>My hobbies include playing video games and playing musical instruments.</p>
-		<section class="Hobbies">
+		
+        
+        
+        <section class="Hobbies">
 
 			<h3 id="videoGameHeading">Video Games</h3>
-				<p>Since I was young, I really enjoyed playing video games.</p>
+			<p>The first game I ever played was Wii Sports on Nintendo Wii.
+				<br>Later when I got a desktop computer, I started playing League of Legends.
+				<br>Then, I started playing Tom Clancy's Rainbow Six Siege.
+				<br>I recently began playing Valorant.
+				<br>I play Apex Legends once in a while.
+			</p>
+
+            <div class="slidercontainer">  
+                <div class="showSlide fade">  
+                    <img src="image/wii.jpg" />  
+                    <div class="content">Wii Sports</div>  
+                </div>  
+                <div class="showSlide fade">  
+                    <img src="image/league.jpg"/>  
+                    <div class="contentBlack">League of Legends</div>  
+                </div>  
+				<div class="showSlide fade">  
+                    <img src="image/rainbow.jpg"/>  
+                    <div class="contentBlack">Tom Clancy's Rainbow Six Siege</div>  
+                </div> 
+                <div class="showSlide fade">  
+                    <img src="image/valorant.jpg"/>  
+                    <div class="contentBlack">Valorant</div>  
+                </div>  
+                
+                <div class="showSlide fade">  
+                    <img src="image/apex.jpg"/>  
+                    <div class="content">Apex Legends</div> 
+                </div>   
+                <!-- Navigation arrows -->  
+                <a class="left" onclick="nextSlide(-1)">❮</a>  
+                <a class="right" onclick="nextSlide(1)">❯</a>  
+            </div>  
+		</section>
+
+		<section class="Music">
+			<h3 id="musicHeading">Playing Instuments</h3>
+			<p>I learned my first instrument in fifth grade, which was the drums</p>
+			<p>I chose the drums because when I play the drums, I do not have to consider the melody of the music but just have to be precise on beat.</p>
+			<p>One year later, I began learning the acoustic guitar.</p>
+			<p>Learning the acoustic guitar allowed me to easily learn the electric guitar, then the bass guitar.</p>
+			<img id="drumImage" src="image/drums.jpg" alt="drum">
+		</section>
+
+		
+		<script src="js/script.js"></script>
+	</body>
+</html>
+
+
+<!-----    <p>Since I was young, I really enjoyed playing video games.</p>
 				<p>The first game I ever played was Wii Sports on Nintendo Wii.</p>
 				<iframe id="wiiVideo" width="788" height="443" src="https://www.youtube.com/embed/6AtYgs08xSY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<p>Later when I got a desktop computer, I began playing Minecraft.</p>
@@ -39,17 +92,6 @@
 						<li>Etc.</li>
 					</ul>
 		</section>
+	
+
 		
-		<section class="Music">
-			<h3 id="musicHeading">Playing Instuments</h3>
-			<p>I learned my first instrument in fifth grade, which was the drums</p>
-			<p>I chose the drums because when I play the drums, I do not have to consider the melody of the music but just have to be precise on beat.</p>
-			<p>One year later, I began learning the acoustic guitar.</p>
-			<p>Learning the acoustic guitar allowed me to easily learn the electric guitar, then the bass guitar.</p>
-			<img id="drumImage" src="image/drums.jpg" alt="drum">
-		</section>
-		
-		
-		
-	</body>
-</html>
